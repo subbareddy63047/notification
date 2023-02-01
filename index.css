@@ -1,0 +1,61 @@
+/* Write your code here. */
+@media screen and (max-width: 767px) {
+  .heading {
+    color: #0f172a;
+    font-size: 30px;
+    font-family: "roboto";
+    font-weight: 500;
+    text-align: start;
+    margin-bottom: 8px;
+    padding-left: 20%;
+  }
+  .information {
+    border-radius: 5px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+  }
+  .blueMark {
+    margin: 10px;
+    height: 20px;
+    width: 20px;
+  }
+  .infoMessage {
+    color: white;
+    font-family: "roboto";
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    color: #0f172a;
+    font-size: 35px;
+    font-family: "roboto";
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+  .information {
+    border-radius: 5px;
+    background-color: black;
+    font-size: 23px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    margin: 20px;
+  }
+  .blueMark {
+    margin: 10px;
+    height: 20px;
+    width: 20px;
+  }
+  .infoMessage {
+    color: white;
+    font-family: "roboto";
+    font-size: 20px;
+  }
+}
